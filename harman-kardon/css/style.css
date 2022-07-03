@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+}
+
+:root {
+    --white: #fff;
+    --grey: #999393;
+}
+
+body {
+    margin: 0;     
+    color: var(--white);
+    font-family: 'Optima LT Std';
+    background: linear-gradient(45deg, #000000, #434343);
+}
+
+.header {
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1240px;
+    display: flex;
+}
+
+.logo { 
+    padding-top: 51px;
+    padding-left: 100px;
+}
+
+.nav {
+    padding-top: 40px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    transition: ease .2s;
+}
+
+.nav-link:hover {
+    color: var(--grey);
+}
+
+/* WRAPPER */
+.wrapper {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.main {
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.main-title {
+    left: 35%; 
+    margin-top: -20px; 
+    font-size: 64px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.main-img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.main-text {
+    margin-left: 207px;
+    width: 835px;   
+    margin-top: 100px;
+    color: var(--grey);
+    text-align: center;
+}
+
+/* OMNI */
+.omni {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.omni-text {
+    align-items: center;
+}

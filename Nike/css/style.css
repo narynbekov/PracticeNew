@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.logo {
+  padding-top: 50px;
+  padding-right: 30px;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+}
+
+.nav {
+  padding-top: 50px;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link {
+  color: black;
+  font-weight: 900;
+  margin-right: 140px;
+  text-decoration: none;
+  transition: ease .2s;
+}
+
+.nav-link:hover {
+  color: #8E8484;
+}
+
+.bxss {
+  color: black;
+  transition: ease .2s
+}
+
+.bxss:hover {
+  color: #8E8484;
+}
+
+.main-content {
+  padding-top: 100px;
+}
+
+.main1 {
+  margin-top: 140px;
+}
+
+.main-title {
+  padding-left: 80px;
+  position: absolute;
+  top: 265px;
+}
+
+.main-title h1 {
+  font-size: 48px;
+  font-weight: 900;
+  
+  margin: 0;
+}
+
+.main-title p {
+  padding-top: 30px;
+  width: 300px;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+
+.main-title a {
+  padding:  20px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  background-color: black;
+}
+
+.sneakers h2 {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.sneakers {
+  padding-left: 70px;
+  display: flex;
+  padding-right: 30px;
+}
+
+.sneakers-container {
+  padding-top: 140px;
+  padding-right: 40px;
+}
+
+.sneaker-img {
+  border-radius: 5px;
+  width: 330px;
+  height: 360px;
+  background-color: #F7F7F7;
+  
+}
+
+.sneaker-img img {
+  padding-top: 80px;
+  padding-left: 20px;
+  border-radius: 5px;
+  
+}
+
+h3 {
+  padding-top: 40px;
+}
+
+p {
+  font-weight: 500;
+  color: #8E8484;
+}
+
+.trend {
+  margin-top: 150px;
+}
+
+.trend img {
+  padding-top: 10px;  
+}
+
+.trend h2 {
+  padding-top: 20px;
+}
+
+.trend-inner {
+  padding-left: 80px;
+  position: absolute;
+}
+
+.trend-inner h3 {
+  padding-bottom: 50px;
+  padding-top: 100px;
+  font-size: 43px;
+  color: #fff;
+}
+
+.trend-inner a {
+  font-size: 20px;
+  color: #fff;
+  padding: 15px 25px;
+  text-decoration: none;
+  background-color: black;
+}
+
+.img {
+  padding-right: 15px;
+}
+
+.trend-p {
+  position: absolute;
+}
+
+.trend-pic {
+  display: flex;
+}
+
+.trend-p {
+  font-style: italic;   
+  padding: 25px 35px;
+  color: #fff;
+  display: flex;
+}
+
+.doit {
+  margin-top: 120px;
+  display: flex;
+}
+
+.doit-text {
+  padding-right: 135px;
+}
+
+.doit-text h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #5A5353;
+  text-transform: uppercase;
+}
+
+.doit-text h2 {
+  width: 360px;
+  font-size: 52px;
+}
+
+.doit-text p {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 60px;
+}
+
+.doit-text a {
+  color: #fff;
+  padding: 15px 25px;
+  text-decoration: none;
+  background-color: black;
+}
+
+footer {
+  max-width: 1440px;
+  display: flex;
+  color: #fff;
+  margin-top: 150px;
+  width: 1220px;
+  background-color: black;
+  margin-bottom: 4 0px;
+}
+
+.footer-img {
+  padding-top: 75px;
+  padding-left: 70px;
+}
+
+.footer-copy p {
+  width: 167px;
+  padding-left: 70px;
+  padding-top: 100px;
+  font-weight: 400;
+  color: #7A7878;
+}
+
+.footer-item {
+  padding-left: 90px;
+}
+
+.footer-title {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 75px;
+  padding-left: 40px;
+  margin-bottom: 60px;
+}
+
+.footer-link li {
+  list-style-type: none;
+}
+
+.footer-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+}
+
+.footer-icon {
+  padding-left: 45px;
+  color: black;
+}
+
+.bxc {
+  margin-right: 10px;
+  align-items: center;
+  margin-top: 80px; 
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: ease .5s;
+}
+
+.bxc:hover {
+  background-color: black;
+  color: white;
+}

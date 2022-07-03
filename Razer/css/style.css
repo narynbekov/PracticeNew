@@ -1,0 +1,323 @@
+:root {
+    --white: #FFFFFF;
+    --green: #00E600;
+    --gray: #85898A;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #191A1C;
+    font-family: 'HelveticaNeueCyr';
+    color: var(--white);
+    margin: 0;
+}
+
+.header {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+   
+}
+
+.nav-link {
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: medium;
+    text-decoration: none;
+    color: var(--white);
+    transition: ease .2s;
+}
+
+.nav-link:hover {
+    color: var(--green);
+    /* text-decoration: underline 1px; */
+}
+
+.bx {
+    color: var(--white);
+    transition: ease .2s;
+}
+
+.bx:hover {
+    color: var(--green);
+}
+
+/* wrapper */
+.wrapper {
+    display: flex;
+    top: 160px;
+    max-width: 1180px;
+    margin: 0 auto; 
+}
+
+.main {
+    align-items: center;
+}
+
+.main-text {
+    margin: 0;
+    margin-top: 160px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    line-height: 59px;
+    letter-spacing: 0.035em;
+}
+
+.main-item {
+    width: 458px;
+    margin-top: 55px;
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--gray);
+}
+
+.button {
+    margin-top: 75px;
+}
+
+.btn {
+    font-size: 16px;
+    position: relative;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    background-color: var(--green);
+    padding: 14px 25px 14px 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: ease .2s;
+}
+
+.btn:hover {
+    color: #022402;
+    background-color: #17b617;
+}
+
+.main-img__image {
+    margin-top: 160px;
+    padding-left: 128px;
+}
+
+/* products */
+.products {
+    padding-top: 336px;
+    max-width: 1180px;
+    margin: 0 auto; 
+    display: flex;
+}
+
+.products-img {
+    padding-right: 180px;
+    padding-left: 150px;    
+}
+
+.product-text {
+    color: var(--white);
+}
+
+.product-text__main {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 0.035em;
+}
+
+.product-item {
+    width: 458px;
+    margin-top: 55px;
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--gray);
+}
+
+.razer-product {
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+.razer-container {
+    width: 250px;
+    height: 300px;
+    margin-right: 65px;
+    font-weight: 400;
+    background-color: #161616;
+    border-radius: 11px;
+}
+
+.product-items {
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+.product-headphones {
+    padding-top: 40px;
+    padding-left: 70px;
+}
+
+.product-mouse {
+    padding-top: 55px;
+    padding-left: 50px;
+}
+
+.product-rug {
+    padding-top: 55px;
+    padding-left: 20px;
+}
+
+.razer-text {
+    text-align: center;
+    padding-left: 11px;
+    margin-top: 30px;
+}
+
+.razer-item {
+    color: var(--green);
+    padding-left: 90px;
+}
+
+.razer-insider {
+    margin-top: 155px;
+    min-height: 362px;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.razer-text-main {
+    position: absolute;
+    left: 135px;
+    padding-top: 70px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 105.3%;
+}
+
+.razer-text-item {
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 280px;
+    padding-left: 130px;
+    color: var(--green);
+}
+
+.razer-big__content {
+    display: flex;
+}
+
+.razer-ads {
+    padding-top: 90px;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.razer-new {
+    display: flex;
+    color: var(--white);
+    text-decoration: none;
+}
+
+
+.razer-news {
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.035em;
+}
+
+.razer-icon {
+    padding-left: 15px;
+    display: flex;
+}
+
+.razer-news-item {
+    font-size: 16px;
+    line-height: 165%;
+    letter-spacing: 0.035em;
+    width: 340px;
+    color: var(--gray);
+}
+
+.razer-join {
+    max-width: 1180px;
+    padding-top: 80px;
+}
+
+.razer-button {
+    margin-left: 890px;
+}
+
+.razer-software {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.razer-area-item {
+    font-style: normal;
+    font-weight: 550;
+    margin-left: 545px;
+    padding-top: 180px;
+    font-size: 20px;
+    color: var(--green);
+    line-height: 105.3%;
+    letter-spacing: 0.035em;
+}
+
+.razer-area-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    margin-left: 430px;
+}
+
+.razer-icons {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.razer-icons {
+    display: flex;
+}
+
+.razer-1 {
+    padding-top: 180px;
+    padding-right: 275px;
+}
+
+.razer-icon-text {
+    padding-top: 30px;
+    width: 130px;
+    padding-bottom: 170px;
+}
+
+.footer {   
+    display: flex;
+    height: 170px;
+    background-color: #101010;
+}
+
+.footer-text {
+    color: var(--gray);
+    padding-top: 85px;
+    margin-left: 123px;
+}
+
+.img {
+    padding-top: 85px;
+    padding-left: 130px;
+}

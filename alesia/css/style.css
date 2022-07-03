@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+:root {
+    --main: #EEEEEE;
+    --black: #000000;
+    --second: #A89D9D;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    max-width: 1900px;
+    margin: 0 auto;
+    font-family: 'Sen', sans-serif;
+}
+
+.header {
+    display: flex;
+    margin-left: 310px;
+    margin-top: 40px;
+    justify-content: space-between  ;
+}
+
+.logo {
+    color: var(--black);
+    font-size: 44px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.nav {
+    margin-right: 305px;
+    display: flex;
+}
+
+.nav-item {
+    padding-top: 5px;
+}       
+
+.nav-link {
+    color: var(--black);
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 50px;  
+}
+
+.nav-link-icon {
+    color: var(--black);
+    padding-left: 50px;
+}
+
+/* SECTION */
+section {
+    max-width: 1280px;  
+    margin: 0 auto;
+    background: url(../img/bg.jpg);
+}
+
+.main {
+    margin-top: 50px;
+    width: 1280px;
+    height: 690px;
+    background-color: var(--main);
+}
+
+.main-img {
+    padding-top: 95px;
+    padding-left: 100px;
+    padding-right: 90px;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-text {
+    padding-top: 120px;
+}
+
+.main-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--second);
+    padding-bottom: 50px;
+}
+
+.main-h1 {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.main-btn {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--black);
+    text-decoration: none;
+    padding: 20px 30px;
+    border: 2px solid var(--black);
+    transition: ease .3s;
+}
+
+.main-btn:hover {
+    color: var(--main);
+    background-color: var(--black);
+}
+
+.main-news {
+    display: flex;
+    width: 625px;
+    margin-top: 30px;
+    background-color: var(--main);
+}
+
+.main-container {
+    display: flex;
+    margin-right: 30px;
+    background-color: var(--main);      
+}
+
+.main-news--text {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 95px;
+}
+
+.main-news--text p {
+    font-size: 20px;
+    color: var(--second);
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.main-news--text h2 {
+    font-size: 32px;
+    margin: 0;
+    padding-bottom: 45px;
+}
+
+.main-news--text a {
+    font-size: 20px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.news-img {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.news-img1 {
+    padding-left: 50px;
+    padding-top: 50px;
+}
